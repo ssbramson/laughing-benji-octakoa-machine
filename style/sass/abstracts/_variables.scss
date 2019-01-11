@@ -1,0 +1,26 @@
+$black: rgb(35, 34, 35);
+$white: rgb(242, 243, 244);
+$purple: rgb(51, 0, 100);
+
+$black_60: rgba($black, 0.6);
+$black_20: rgba($black, 0.2);
+
+$white_09: rgba($white, 0.9);
+$white_08: rgba($white, 0.8);
+$white_06: rgba($white, 0.6);
+$white_02: rgba($white, 0.2);
+
+$purple_60: rgba($purple, 0.6);
+$purple_20: rgba($purple, 0.2);
+
+$font_family-primary: "Josefin Sans", monospace;
+$font_family-retro: "Space Mono", monospace;
+$font_family-signature: "Rock Salt", monospace;
+// $font_family-signature: "Nothing You Could Do", monospace;
+
+$font_weight-light: 300;
+$font_weight-regular: 400;
+$font_weight-bold: 700;
+
+$px-breakpoint-primary_height: 667px;
+$px-breakpoint-primary_width: 760px;

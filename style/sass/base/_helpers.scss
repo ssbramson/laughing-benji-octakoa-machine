@@ -1,0 +1,73 @@
+body {
+  background-color: $white;
+}
+
+:any-link {
+  cursor: default;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  padding: 0;
+}
+
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+// li:last-child {
+//   line-height: 1.0rem;
+// }
+
+button {
+  background-color: transparent;
+  border: none;
+  color: inherit;
+  display: block;
+  padding-block-end: 0;
+  padding-block-start: 0;
+  padding-inline-end: 0;
+  padding-inline-start: 0;
+  padding: 0;
+  text-align: inherit;
+}
+
+p,
+dl,
+multicol {
+  margin: 0;
+  margin-block-end: 0;
+  margin-block-start: 0;
+}
+
+// h1 {margin: 0;}
+
+ul,
+li,
+menu,
+dir {
+  list-style-type: none;
+  margin: 0;
+  margin-block-end: 0;
+  margin-block-start: 0;
+  padding-inline-end: 0;
+  padding-inline-start: 0;
+  
+}
+
+a,
+a:active,
+a:hover,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}

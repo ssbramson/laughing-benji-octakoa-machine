@@ -1,0 +1,46 @@
+.experience-container {
+  display: grid;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+
+.experience-content {
+  align-self: center;
+  justify-self: stretch;
+}
+
+.experience-highlighted_clients {
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (max-width: $px-breakpoint-primary_width) and (max-height: $px-breakpoint-primary_height) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
+}
+
+.experience-highlighted_client {
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (max-width: $px-breakpoint-primary_width) and (max-height: $px-breakpoint-primary_height) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
+
+  text-align: center;
+}
+
+.experience-highlighted_client-link {
+  @media (max-width: $px-breakpoint-primary_width) {
+    font-size: 1.25rem;
+    font-weight: $font_weight-bold;
+    letter-spacing: 0.35rem;
+    line-height: 3.75;
+    margin-right: -0.35rem;
+  }
+  @media (max-width: $px-breakpoint-primary_width) and (max-height: $px-breakpoint-primary_height) {}
+  @media (min-width: $px-breakpoint-primary_width) {
+    font-size: 2.5rem;
+    font-weight: $font_weight-light;
+    letter-spacing: 1.25rem;
+    line-height: 2.25;
+    margin-right: -1.25rem;
+  }
+
+  text-transform: uppercase;
+}

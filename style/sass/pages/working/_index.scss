@@ -1,0 +1,96 @@
+.index-container {
+  display: grid;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  grid-template-columns: 9fr 1fr;
+  grid-template-rows: 1fr;
+}
+
+.index-content {
+  align-self: end;
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  justify-self: stretch;
+}
+
+.index-header {
+  @media (max-width: $px-breakpoint-primary_width) {
+    font-size: 1.5rem;
+    letter-spacing: 0.025rem;
+    line-height: 2.0;
+    margin-bottom: 1.25rem;
+    width: 80%;
+  }
+  @media (max-width: $px-breakpoint-primary_width) and (max-height: $px-breakpoint-primary_height) {}
+  @media (min-width: $px-breakpoint-primary_width) {
+    font-size: 2.5rem;
+  }
+
+  font-weight: $font_weight-light;
+  // transform: rotate(-1deg);
+
+  sup { 
+    font-size: 50%;
+    padding-left: 0.5rem; 
+  }
+}
+
+.index-introduction_paragraph-content {
+  @media (max-width: $px-breakpoint-primary_width) {
+    font-size: 1.0rem;
+    line-height: 2.0;
+    max-width: 42ch;
+  }
+  @media (max-width: $px-breakpoint-primary_width) and (max-height: $px-breakpoint-primary_height) {}
+  @media (min-width: $px-breakpoint-primary_width) {
+    font-size: 2.0rem; 
+    font-weight: $font_weight-light;
+    letter-spacing: 0.1rem;
+    width: 90%;
+  }
+}
+
+.index-introduction_paragraph {
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (max-width: $px-breakpoint-primary_width) and (max-height: $px-breakpoint-primary_height) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
+  display: inline;
+}
+
+.index-highlighted_clients {
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (max-width: $px-breakpoint-primary_width) and (max-height: $px-breakpoint-primary_height) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
+  display: inline;
+}
+
+.index-highlighed_client {
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (max-width: $px-breakpoint-primary_width) and (max-height: $px-breakpoint-primary_height) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
+  display: inline-flex;
+
+  &:hover {
+    color: $purple;
+    // font-weight: $font_weight-regular;
+  }
+
+  &:after {
+    content: ",\00a0";
+    letter-spacing: 0;
+  }
+
+  &:nth-last-child(2):after {
+    content: ", and\00a0";
+  }
+
+  &:last-child:after {
+    content: ".";
+  }
+}
+
+.index-highlighed_client-link {
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (max-width: $px-breakpoint-primary_width) and (max-height: $px-breakpoint-primary_height) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
+}

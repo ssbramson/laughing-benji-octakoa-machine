@@ -1,0 +1,15 @@
+.container {
+  display: grid;
+  grid-template-columns: 6% 1fr 6%;
+  grid-template-rows: 108px 1fr 6%;
+  height: 100vh;
+  z-index: 99;
+}
+
+.content-container {
+  display: grid;
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  grid-template-columns: 9fr 1fr;
+  grid-template-rows: 1fr;
+}

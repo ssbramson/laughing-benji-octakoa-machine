@@ -1,0 +1,170 @@
+// .collaborate-container {
+//   display: grid;
+//   grid-column: 2 / 3;
+//   grid-row: 2 / 3;
+//   grid-template-columns: 1fr;
+//   grid-template-rows: 1fr;
+// }
+
+.collaborate-content {
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
+  display: grid;
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+  grid-template-columns: 9fr 1fr;
+  grid-template-rows: 2fr 1fr;
+}
+
+.collaborate-introduction-content {
+  @media (max-width: $px-breakpoint-primary_width) {
+    grid-column: 1 / 3;
+  }
+  @media (max-width: $px-breakpoint-primary_width) and (max-height: $px-breakpoint-primary_height) {}
+  @media (min-width: $px-breakpoint-primary_width) {
+    grid-column: 1 / 2;
+    // margin-top: 1.5rem;
+  }
+
+  grid-row: 1 / 2;
+}
+
+.collaborate-introduction_title {
+  @media (max-width: $px-breakpoint-primary_width) {
+    letter-spacing: 0.075rem;
+    line-height: 1.75;
+  }
+  @media (max-width: $px-breakpoint-primary_width) and (max-height: $px-breakpoint-primary_height) {}
+  @media (min-width: $px-breakpoint-primary_width) {
+    font-size: 2.0rem;
+    letter-spacing: 0.25rem;
+  }
+  
+ text-transform: uppercase;
+}
+
+.collaborate-introduction_paragraph {
+  @media (max-width: $px-breakpoint-primary_width) {
+    letter-spacing: 0.1rem;
+    line-height: 1.625;
+    margin-bottom: 1.25rem;
+    margin-top: 0.825rem;
+    width: 95%;
+  }
+  @media (max-width: $px-breakpoint-primary_width) and (max-height: $px-breakpoint-primary_height) {}
+  @media (min-width: $px-breakpoint-primary_width) {
+    font-size:1.75rem;
+    line-height: 2.0;
+    margin-bottom: 2.5rem;
+    margin-top: 1.5rem;
+  }
+
+  font-weight: $font_weight-light;
+}
+
+.collaborate-introduction_availability {
+  @media (max-width: $px-breakpoint-primary_width) {
+    font-weight: $font_weight-bold; 
+    letter-spacing: 0.115rem;
+    line-height: 2.0;
+    width: 80%;
+  }
+  @media (max-width: $px-breakpoint-primary_width) and (max-height: $px-breakpoint-primary_height) {}
+  @media (min-width: $px-breakpoint-primary_width) {
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+  }
+
+  // font-family: $font_family-retro;
+  font-weight: $font_weight-regular;
+  text-transform: uppercase;
+}
+
+.collaborate-location-content {
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (max-width: $px-breakpoint-primary_width) and (max-height: $px-breakpoint-primary_height) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
+  align-self: end;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3;
+}
+
+// .collaborate-location_header {
+//   @media (max-width: $px-breakpoint-primary_width) {}
+//   @media (max-width: $px-breakpoint-primary_width) and (max-height: $px-breakpoint-primary_height) {}
+//   @media (min-width: $px-breakpoint-primary_width) {}
+
+//   margin-bottom: 2.0rem;
+// }
+
+.collaborate-location_locations {
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (max-width: $px-breakpoint-primary_width) and (max-height: $px-breakpoint-primary_height) {}
+  @media (min-width: $px-breakpoint-primary_width) {
+    display: inline-flex;
+  }
+  
+}
+
+.collaborate-location_location {
+  @media (max-width: $px-breakpoint-primary_width) {
+
+    &:last-child {
+      margin-top: 1.5rem;
+    }
+  }
+  @media (max-width: $px-breakpoint-primary_width) and (max-height: $px-breakpoint-primary_height) {}
+  @media (min-width: $px-breakpoint-primary_width) {
+    margin-right: 7.0rem;
+  }
+
+  
+}
+
+.collaborate-location_location-header {
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (max-width: $px-breakpoint-primary_width) and (max-height: $px-breakpoint-primary_height) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
+
+  text-transform: uppercase;
+}
+
+.collaborate-location_location-deatils {
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
+
+  font-family: $font_family-retro;
+  text-transform: lowercase;
+}
+
+.collaborate-location_location-detail_time {
+  @media (max-width: $px-breakpoint-primary_width) {
+
+    &:first-child {
+      
+      margin-top: 0.5rem;
+    }
+  }
+  @media (min-width: $px-breakpoint-primary_width) {
+    font-size: 1.5rem;
+
+    &:first-child {
+      margin-top: 1.0rem;
+    }
+  }
+  
+  font-size: 1.5rem;
+}
+
+.collaborate-location_location-detail_day {
+  @media (max-width: $px-breakpoint-primary_width) {}
+  @media (min-width: $px-breakpoint-primary_width) {}
+
+  font-size: 1.25rem;
+}
+
+// .collaborate-location_location-detail_email {
+//   @media (max-width: $px-breakpoint-primary_width) {}
+//   @media (max-width: $px-breakpoint-primary_width) and (max-height: $px-breakpoint-primary_height) {}
+//   @media (min-width: $px-breakpoint-primary_width) {}
+// }

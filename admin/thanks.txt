@@ -1,0 +1,42 @@
+Accessibility: 
+* https://contrast-ratio.com/
+* https://accessibility.18f.gov/page-titles/
+
+
+CSS Grids: 
+
+
+•••••••••••••••
+•    FONTS    •
+•••••••••••••••
+// styling 
+* http://iamvdo.me/en/blog/css-font-metrics-line-height-and-vertical-align
+>> https://jsbin.com/tufatir/edit?css,output
+* 
+
+// performance
+* https://www.zachleat.com/web/font-checklist/
+* https://github.com/majodev/google-webfonts-helper/
+* https://equinsuocha.io/blog/web-fonts-in-2018
+* https://codepen.io/matuzo/pen/jrzyYA?editors=1111
+
+
+// SVG
+* https://jakearchibald.github.io
+
+
+
+
+•••••••••••••••
+•     SVG     •
+•••••••••••••••
+
+* https://www.youtube.com/watch?v=ZJSCl6XEdP8&list=PL4-IK0AVhVjP0EeV513_b30lhGRTfMbYd
+
+
+
+
+•••••••••••••••
+•    CLOCK    •
+•••••••••••••••
+https://codepen.io/inthejungle/pen/NxJGyW

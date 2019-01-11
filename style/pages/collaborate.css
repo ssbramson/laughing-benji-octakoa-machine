@@ -1,0 +1,94 @@
+.collaborate-content {
+  display: grid;
+  grid-column: 1 / 3;
+  grid-row: 1 / 3;
+  grid-template-columns: 9fr 1fr;
+  grid-template-rows: 2fr 1fr; }
+
+.collaborate-introduction-content {
+  grid-row: 1 / 2; }
+  @media (max-width: 760px) {
+    .collaborate-introduction-content {
+      grid-column: 1 / 3; } }
+  @media (min-width: 760px) {
+    .collaborate-introduction-content {
+      grid-column: 1 / 2; } }
+
+.collaborate-introduction_title {
+  text-transform: uppercase; }
+  @media (max-width: 760px) {
+    .collaborate-introduction_title {
+      letter-spacing: 0.075rem;
+      line-height: 1.75; } }
+  @media (min-width: 760px) {
+    .collaborate-introduction_title {
+      font-size: 2.0rem;
+      letter-spacing: 0.25rem; } }
+
+.collaborate-introduction_paragraph {
+  font-weight: 300; }
+  @media (max-width: 760px) {
+    .collaborate-introduction_paragraph {
+      letter-spacing: 0.1rem;
+      line-height: 1.625;
+      margin-bottom: 1.25rem;
+      margin-top: 0.825rem;
+      width: 95%; } }
+  @media (min-width: 760px) {
+    .collaborate-introduction_paragraph {
+      font-size: 1.75rem;
+      line-height: 2.0;
+      margin-bottom: 2.5rem;
+      margin-top: 1.5rem; } }
+
+.collaborate-introduction_availability {
+  font-weight: 400;
+  text-transform: uppercase; }
+  @media (max-width: 760px) {
+    .collaborate-introduction_availability {
+      font-weight: 700;
+      letter-spacing: 0.115rem;
+      line-height: 2.0;
+      width: 80%; } }
+  @media (min-width: 760px) {
+    .collaborate-introduction_availability {
+      font-size: 1.5rem;
+      letter-spacing: 0.1rem; } }
+
+.collaborate-location-content {
+  align-self: end;
+  grid-column: 1 / 2;
+  grid-row: 2 / 3; }
+
+@media (min-width: 760px) {
+  .collaborate-location_locations {
+    display: inline-flex; } }
+
+@media (max-width: 760px) {
+  .collaborate-location_location:last-child {
+    margin-top: 1.5rem; } }
+
+@media (min-width: 760px) {
+  .collaborate-location_location {
+    margin-right: 7.0rem; } }
+
+.collaborate-location_location-header {
+  text-transform: uppercase; }
+
+.collaborate-location_location-deatils {
+  font-family: "Space Mono", monospace;
+  text-transform: lowercase; }
+
+.collaborate-location_location-detail_time {
+  font-size: 1.5rem; }
+  @media (max-width: 760px) {
+    .collaborate-location_location-detail_time:first-child {
+      margin-top: 0.5rem; } }
+  @media (min-width: 760px) {
+    .collaborate-location_location-detail_time {
+      font-size: 1.5rem; }
+      .collaborate-location_location-detail_time:first-child {
+        margin-top: 1.0rem; } }
+
+.collaborate-location_location-detail_day {
+  font-size: 1.25rem; }
