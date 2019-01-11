@@ -109,7 +109,7 @@ new Vue({
 
         <ul class="experience_detail-modal-highlighted_clients">
           <li class="experience_detail-modal-highlighted_client" v-for="experienceClientLink in experienceClientLinks">
-            <a :href="experienceClientLink.linkURL" class="experience-highlighted_client-link" aria-label="Go to detail page" role="link">{{ experienceClientLink.linkTitle }}</a>
+            <a :href="experienceClientLink.linkURL" class="experience-highlighted_client-link" aria-label="Go to detail page" rel="next" role="link">{{ experienceClientLink.linkTitle }}</a>
           </li>
         </ul>
 

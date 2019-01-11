@@ -1,3 +1,10 @@
+z. Unorganized: 
+
+* https://schema.org/docs/schemas.html
+
+
+
+
 Accessibility: 
 * https://contrast-ratio.com/
 * https://accessibility.18f.gov/page-titles/
